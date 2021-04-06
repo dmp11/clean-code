@@ -69,7 +69,7 @@ input {
 .lowest__ul__li-one__input-task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 /* Heading */
 .section__top__label,
@@ -132,7 +132,7 @@ input {
 .center__ul__li-one__input-task,
 .center__ul__li-two__input-task,
 .lowest__ul__li-one__input-task {
-  width: 226px
+  width: 226px;
 }
 .center__ul__li-one__button-delete:hover,
 .center__ul__li-two__button-delete:hover,
@@ -153,17 +153,17 @@ input {
 }
 /* Completed */
 .lowest__ul__li-one__label-task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 /* Edit Task */
 .center__ul__li-one__input-task,
 .lowest__ul__li-one__input-task {
-  display: none
+  display: none;
 }
 .center__ul__li-two__input-task {
   display:inline-block;
-  width: 224px
+  width: 224px;
 }
 .center__ul__li-two__label-task {
   display: none;
