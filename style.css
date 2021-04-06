@@ -7,7 +7,7 @@ body {
 button {
   background: none;
   border: 0px;
-  outline:none;
+  outline: none;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -18,7 +18,7 @@ button:hover {
   color: #3a3a3a;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li {
@@ -34,7 +34,7 @@ li > * {
   vertical-align: middle;
 }
 input {
-  outline:none;
+  outline: none;
 }
 .header {
   width: 500px;
@@ -49,7 +49,8 @@ input {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
-  .header { text-align: center;
+  .header { 
+    text-align: center;
   }
 }
 .main {
@@ -158,12 +159,12 @@ input {
 /* Edit Task */
 .center__ul__li-one__input-task,
 .lowest__ul__li-one__input-task {
-  display:none
+  display: none
 }
 .center__ul__li-two__input-task {
   display:inline-block;
-  width:224px
+  width: 224px
 }
 .center__ul__li-two__label-task {
-  display:none;
+  display: none;
 }
