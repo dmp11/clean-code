@@ -21,29 +21,29 @@
   <main class="main">
     <section class="section__top">
       <label class="section__top__label" for="new-task">Add Item</label>
-      <div class="section__top__wrapper">
+      <div class="section__top__wrapper" class="task">
         <input id="new-task" type="text" class="section__top__wrapper__input-task">
         <button class="section__top__wrapper__button-add">Add</button>
       </div>
     </section>
     <section class="center">
       <h3 class="center__h3">Todo</h3>
-      <ul class="center__ul">
+      <ul class="center__ul"  id="incompleteTasks">
         <li class="center__ul__li-one">
           <input type="checkbox" class="center__ul__li-one__input-checkbox">
-          <label class="center__ul__li-one__label-task">Pay Bills</label>
+          <label class="center__ul__li-one__label-task" class="task">Pay Bills</label>
           <input type="text" class="center__ul__li-one__input-task">
-          <button class="center__ul__li-one__button-edit">Edit</button>
-          <button class="center__ul__li-one__button-delete">
-            <img src="./remove.svg" alt="Button" class="center__ul__li-one__button-delete__img">
+          <button class="center__ul__li-one__button-edit" class="edit">Edit</button>
+          <button class="center__ul__li-one__button-delete" class="delete">
+            <img src="./remove.svg" alt="Button" class="center__ul__li-one__button-delete__img" class="delete">
           </button>
         </li>
         <li class="center__ul__li-two">
           <input type="checkbox" class="center__ul__li-two__input-checkbox">
-          <label class="center__ul__li-two__label-task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="center__ul__li-two__input-task">
-          <button class="center__ul__li-two__button-edit">Save</button>
-          <button class="center__ul__li-two__button-delete">
+          <label class="center__ul__li-two__label-task" class="task">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="center__ul__li-two__input-task" class="task">
+          <button class="center__ul__li-two__button-edit" class="edit">Save</button>
+          <button class="center__ul__li-two__button-delete" class="delete">
             <img src="./remove.svg" alt="Button" class="center__ul__li-two__button-delete__img">
           </button>
         </li>
@@ -51,13 +51,13 @@
     </section>
     <section class="lowest">
       <h3 class="lowest__h3">Completed</h3>
-      <ul class="lowest__ul">
+      <ul class="lowest__ul" id="completed-tasks">
         <li class="lowest__ul__li-one">
           <input type="checkbox" checked class="lowest__ul__li-one__input-checkbox">
-          <label class="lowest__ul__li-one__label-task">See the Doctor</label>
-          <input type="text" class="lowest__ul__li-one__input-task">
-          <button class="lowest__ul__li-one__button-edit">Edit</button>
-          <button class="lowest__ul__li-one__button-delete">
+          <label class="lowest__ul__li-one__label-task" class="task">See the Doctor</label>
+          <input type="text" class="lowest__ul__li-one__input-task" class="task">
+          <button class="lowest__ul__li-one__button-edit" class="edit">Edit</button>
+          <button class="lowest__ul__li-one__button-delete" class="delete">
             <img src="./remove.svg" alt="Button" class="lowest__ul__li-one__button-delete__img">
           </button>
         </li>
