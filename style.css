@@ -103,7 +103,6 @@ input {
 .lowest__ul__li-one__input-task:focus {
   color: #333;
 }
-
 /* New Task */
 .section__top__label {
   display: block;
@@ -115,9 +114,7 @@ input {
 .section__top__wrapper__button-add:hover {
   color: #0fc57c;
 }
-
 /* Task list */
-
 .center__ul__li-one__input-checkbox,
 .center__ul__li-two__input-checkbox,
 .lowest__ul__li-one__input-checkbox {
@@ -153,25 +150,20 @@ input {
 .center__ul__li-two__button-delete__img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .lowest__ul__li-one__label-task {
   text-decoration: line-through
   color: #888;
 }
-
 /* Edit Task */
-
 .center__ul__li-one__input-task,
 .lowest__ul__li-one__input-task {
   display:none
 }
-
 .center__ul__li-two__input-task {
   display:inline-block;
   width:224px
 }
-
 .center__ul__li-two__label-task {
   display:none;
 }
